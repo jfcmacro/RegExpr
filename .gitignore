@@ -1,6 +1,8 @@
 *.class
 *.java~
 bin
+RegExpr.png
+*.*~
 # Package Files #
 *.jar
 *.war

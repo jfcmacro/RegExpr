@@ -6,6 +6,7 @@ public class Concatenation extends RegExpr {
     private RegExpr rregexpr;
 
     public Concatenation(RegExpr lregexpr, RegExpr rregexpr) {
+
 	this.lregexpr = lregexpr;
 	this.rregexpr = rregexpr;
     }

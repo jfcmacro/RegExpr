@@ -4,7 +4,7 @@ public class Closure extends RegExpr {
 
     private RegExpr regexpr;
 
-    public Closure(Regexpr regexpr) {
+    public Closure(RegExpr regexpr) {
 	this.regexpr = regexpr;
     }
 }

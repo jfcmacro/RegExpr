@@ -22,13 +22,11 @@
     <javac srcdir="${src}" destdir="${build}"/>
   </target>
 
-  <!-- <target name="run" depends="compile"> -->
-  <!--   <echo message=""/> -->
-  <!--   <java classname="co.edu.eafit.dis.expr.main.MainValidator" -->
-  <!--         classpath="${build}"> -->
-  <!--     <arg value="3*(4+3)*3*3"/> -->
-  <!--   </java> -->
-  <!-- </target> -->
+  <target name="run" depends="compile">
+    <echo message=""/>
+    <java classname="Main"
+          classpath="${build}"/>
+  </target>
 
   <target name="clean"
 	  description="limpia todo">

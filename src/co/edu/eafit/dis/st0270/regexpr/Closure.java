@@ -7,4 +7,13 @@ public class Closure extends RegExpr {
     public Closure(RegExpr regexpr) {
 	this.regexpr = regexpr;
     }
+
+
+    public RegExpr getChildRegExpr() {
+	return regexpr;
+    }
+
+    public void accept(RegExprVisitor visitor) {
+	visitor.visit(this);
+    }
 }

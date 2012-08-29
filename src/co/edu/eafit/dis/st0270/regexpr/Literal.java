@@ -10,4 +10,12 @@ public class Literal extends RegExpr {
 
 	this.symbol = symbol;
     }
+
+    public Symbol getSymbol() {
+	return symbol;
+    }
+
+    public void accept(RegExprVisitor visitor) {
+	visitor.visit(this);
+    }
 }

@@ -11,7 +11,7 @@ public class Concatenation extends RegExpr {
 	this.rregexpr = rregexpr;
     }
 
-    
+
     public RegExpr getLeftRegExpr() {
 	return lregexpr;
     }

@@ -1,6 +1,6 @@
 package co.edu.eafit.dis.st0270.regexpr;
 
-public class RegExprVisitorIsEmpty 
+public class RegExprVisitorIsEmpty
     implements RegExprVisitor {
 
     private boolean isEmpty = true;

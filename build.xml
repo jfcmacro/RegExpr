@@ -19,7 +19,10 @@
 
   <target name="compile" depends="init"
 	  description="source files are compiled">
-    <javac srcdir="${src}" destdir="${build}"/>
+    <javac srcdir="${src}" destdir="${build}" includeantruntime="false">
+      <compilerarg value="-Xlint"/>
+      <compilerarg value="-Werror"/>
+    </javac>
   </target>
 
   <target name="run" depends="compile">

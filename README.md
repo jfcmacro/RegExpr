@@ -3,7 +3,7 @@ RegExpr
 
 Test if the language denoted by an expression regular is empty.
 
-Tested with javac 1.6.0_32 and ant 1.8.2.
+Tested with javac 1.8.0_181 and ant 1.9.6.
 
 Installation and running the program:
 
